@@ -125,7 +125,7 @@ const addComputerMove = (ai_level) => {
     }
 }
 
-let scores = {X : 1, O : -1, tie : 0};
+let scores = {K : 1, O : -1, tie : 0};
 
 const minimax = (board, isMaximizing) => {
     let res = check_match();
